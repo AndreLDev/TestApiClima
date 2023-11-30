@@ -9,6 +9,7 @@ body{
     height: 100vh;
     width: 100vw;
     background: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -31,6 +32,9 @@ body{
 .box-menor{
     display: flex;
     align-items: center;
+}
+.texto-previsao{
+    text-transform: capitalize;
 }
 
 input.focus{
